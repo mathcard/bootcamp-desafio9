@@ -1,0 +1,17 @@
+CREATE DATABASE gostack_desafio09_tests;
+
+- Clientes
+- Produtos
+- Pedidos
+- PedidosProdutos (id, id_produto, id_order, quantidade, valor)
+
+yarn typeorm migration:create -n CreateCustomers
+yarn typeorm migration:run
+
+
+Erro uuid_generate_v4
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+
+Parei com 42:42
+ALTERAR POR DO BANCO NO ORMCONFIG 5432
